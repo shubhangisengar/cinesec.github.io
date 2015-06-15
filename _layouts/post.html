@@ -1,0 +1,224 @@
+<html>
+<head>
+ <script src="jq.js"></script>
+ <link rel="stylesheet" type="text/css" href="/slick/slick.css"/>
+ <link rel="stylesheet" type="text/css" href="/slick/slick-theme.css"/>
+ <link rel="stylesheet" type="text/css" href="/slick/st.css"/>
+
+<title>
+		Cinesec
+</title>
+
+<style type="text/css">
+@font-face {
+  font-family: "stalemate";
+  src: url(/Stalemate-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Sawasdee";
+  src: url(/Sawasdee.ttf) format("truetype");
+}
+@font-face {
+  font-family: "openSansExtraBold";
+  src: url(/OpenSans-ExtraBold.ttf) format("truetype");
+}
+.slick-prev{
+	left:10;
+	font-size: 200%;
+}
+.slick-next{
+	right: 10;
+	font-size: 200%;
+}
+	
+	body 
+	{
+		padding: 0;
+		margin: 0;
+		background-color: e9eaed;
+	}
+
+	.img1{-webkit-filter: brightness(100%);}
+	.img:hover {-webkit-filter: brightness(120%); }
+	.video-element
+	{
+		box-shadow: 5px 5px 5px #888888;
+		background-color: f6f4f3;
+		float:left;
+		margin-left:30;
+		width:800;
+	}
+	.video-container
+	{
+		width:100%;
+	}
+	.header
+	{
+		font-family: openSansExtraBold;
+		font-size:35;
+		width:100%;
+		
+	}
+	.description
+	{
+		font-family: Ariel;
+		font-size:20;
+		width:100%;
+	}
+
+	.middlePost2
+	{
+		font-family: Sawasdee ;
+		color:1f233d;
+		background-color: f0f4f7;
+		margin-left:3%;
+		margin-right:3%;
+		margin-top:10px;
+		margin-bottom: 10px;
+	}
+	a{
+		 text-decoration: none;
+	}
+</style>
+</style>
+</head>
+<body>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="/slick/slick.min.js"></script>
+	<CENTER>
+
+	<!--	<div class="header">
+		</div>
+		<BR>
+		<Br>-->
+	<div style="font-family: stalemate ;font-size:100;">
+		Cinesec
+	</div>
+	
+	<script type="text/javascript">
+   
+    $(document).ready(function(){
+    $('.single-item').slick({
+    	dots: true,
+    	autoplay: true,
+     	autoplaySpeed: 2000,
+    });
+    $('.fade').slick({
+      dots: true,
+      infinite: true,
+      speed: 500,
+      fade: true,
+      cssEase: 'linear',
+      centerMode:true,
+      autoplay: true,
+      autoplaySpeed: 2000
+    });
+    $('.multiple-items').slick({
+	  slidesToShow: 2,
+	  slidesToScroll: 1,
+	  dots:false,
+	  arrows:false
+	});
+	$('.multiple-items-2').slick({
+	  slidesToShow: 3,
+	  slidesToScroll: 2,
+	  dots:true,
+	  arrows:true
+	});
+	$('.multiple-items-3').slick({
+	  slidesToShow: 2,
+	  slidesToScroll: 2,
+	  dots:true,
+	  arrows:true
+	});
+  });
+
+  </script>
+  <img src="/images/line.png">
+  <br><br><br>
+ <div class="multiple-items-2"style="width:90vw;height:12vw;">
+  	{% for post in site.posts %}
+		{% if post.categories contains 'right' %}
+    		<a href="{{ post.url }}"><div style="margin-left:2%;margin-right:2%;"><img src="/images/posts/{{post.image}}" width=100%;></div></a>
+		{% endif %}
+	{% endfor %}
+  	</div>
+  <img src="/images/line.png">
+  <br><br>
+  <br><br>
+
+
+ <div style="overflow: auto;">
+	<div class="video-element">
+		<div align="left" class="header">
+			{{page.catch}}
+		</div>
+		<br><br>
+		<div align="left" class="description">
+			{{ content }}
+		</div>
+		<br>
+		<div class="video-container">
+			<iframe width="720" height="405" src="https://www.youtube.com/embed/Yq-vTT-fHtk" frameborder="0" allowfullscreen></iframe>
+		</div>
+		<div style="float:right"><br>Posted By<font color="0198de"> {{page.author}}</font></div>
+		<br><br><br>
+		
+		<div class="multiple-items-2"style="width:100%;height:120px;">
+		{% for post in site.posts %}
+			{% if post.categories contains 'right' %}
+    			<a href="{{ post.url }}"><div style="margin-left:6%;margin-right:6%;"><img src="/images/posts/{{post.image}}" width=100%;></div></a>
+			{% endif %}
+		{% endfor %}
+	  	</div>
+		<br><br><br>	
+		
+		<div class="multiple-items-2"style="width:100%;height:120px;">
+		{% for post in site.posts %}
+			{% if post.categories contains 'right' %}
+    			<a href="{{ post.url }}"><div style="margin-left:6%;margin-right:6%;"><img src="/images/posts/{{post.image}}" width=100%;></div></a>
+			{% endif %}
+		{% endfor %}
+	  	</div>
+	  	<br>
+
+
+	</div>
+
+	<div style="background-color:f6f4f3;float:right;width:22%;margin-right:40px;box-shadow: 5px 5px 5px #888888">
+	  	
+		<div class="middlePost2">
+				 {% for post in site.posts %}
+					{% if post.categories contains 'right' %}	    		
+						<div class="middlePost2">
+		    			<a href="{{ post.url }}"><img src="/images/posts/{{post.image}}"width=100%;height:100%;>{{post.catch}}</a>
+						</div>
+					{% endif %}
+				{% endfor %}
+		</div>
+	</div>
+</div>
+<br><br>
+<div style="background-color:black;height:70px">
+<font color="white">
+
+<div style="margin-top:20px;float:left; font-family: Sawasdee ;font-size:17;position:relative;right:10;">
+© 2015 CINESEC
+</div>
+ <a href="https://facebook.com/Cinesec.IITR">
+ <img src="/images/facebook.png"style="float:right;margin-right:30px;margin-top:6px;"> 
+</a>
+ <a href="https://www.youtube.com/user/cineseciitr" style="float:right;margin-right:30px;margin-top:6px;">
+ <img src="/images/youtube.png">
+ </a>
+ <span style=" font-family: Sawasdee ;font-size:17;float :right;margin-right:20;margin-top:20;">
+  cineiitr@gmail.com
+</span>
+</font>
+</font>
+</font>
+</div>
+</body>
+</html>
