@@ -1,0 +1,9 @@
+markdown: rdiscount
+pygments: true
+permalink: /:title
+rdiscount:
+  extensions: [smart]
+
+name: CINE
+url: http://cinesec.co.in
+description: Cinematics Section IIT Roorkee.
