@@ -2,7 +2,7 @@
 layout: post
 title: SCREENPATTI's SAVE THE BHAI
 image: save-the-bhai.jpg
-categories: ['cover','left']
+categories: ['cover','left','indi-top']
 tag: coverstory
 youtube: https://www.youtube.com/embed/Yq-vTT-fHtk
 catch: Save The Bhai

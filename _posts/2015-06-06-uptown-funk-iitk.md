@@ -2,7 +2,7 @@
 layout: post
 title: Uptown Funk IIT Kanpur
 image: uptown-funk-iitk.png
-categories: ['left']
+categories: [left, indi-bottom1]
 tag: coverstory
 youtube: https://www.youtube.com/embed/Yq-vTT-fHtk
 catch: When a bunch of IIT KANPUR final years killed it.

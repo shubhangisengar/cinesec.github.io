@@ -2,7 +2,7 @@
 layout: post
 title: Campus tour IITK
 image: campus-tour-iitk.png
-categories: ['top23']
+categories: ['top23','indi-top']
 tag: coverstory
 youtube: https://www.youtube.com/embed/Yq-vTT-fHtk
 catch: IIT KANPUR campus virtual walk

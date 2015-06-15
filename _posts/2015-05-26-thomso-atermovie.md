@@ -2,7 +2,7 @@
 layout: post
 title: THOMSO
 image: thomso-aftermovie.png
-categories: ['top']
+categories: ['top','indi-bottom2']
 tag: coverstory
 youtube: https://www.youtube.com/embed/Yq-vTT-fHtk
 catch: Aftermovie:Thomso

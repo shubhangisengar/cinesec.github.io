@@ -2,7 +2,7 @@
 layout: post
 title: SCREENPATTI's MAGGI
 image: screenpatti-maggi.png
-categories: ['cover','right']
+categories: [cover, right, indi-top]
 tag: coverstory
 youtube: https://www.youtube.com/embed/Yq-vTT-fHtk
 catch: Maggi's gone,know the reason why?

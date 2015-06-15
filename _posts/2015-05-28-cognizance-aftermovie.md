@@ -2,7 +2,7 @@
 layout: post
 title: COGNIZANCE
 image: cognizance-aftermovie.png
-categories: ['top']
+categories: ['top','indi-bottom1']
 tag: coverstory
 youtube: https://www.youtube.com/embed/Yq-vTT-fHtk
 catch: Aftermovie:cognizance

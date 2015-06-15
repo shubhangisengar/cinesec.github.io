@@ -2,7 +2,7 @@
 layout: post
 title: Lazy terrorist
 image: lazy-terrorist.png
-categories: ['left']
+categories: [left, indi-bottom1]
 tag: coverstory
 youtube: https://www.youtube.com/embed/Yq-vTT-fHtk
 catch: Are You Lazy?
