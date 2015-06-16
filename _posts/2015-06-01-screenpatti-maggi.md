@@ -1,7 +1,7 @@
 ---
 layout: post
 title: SCREENPATTI's MAGGI
-image: screenpatti-maggi.png
+image: screenpatti-maggi.jpg
 categories: [cover, right, indi-top]
 tag: coverstory
 youtube: https://www.youtube.com/embed/Yq-vTT-fHtk

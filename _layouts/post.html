@@ -1,9 +1,13 @@
 <html>
 <head>
- <script src="jq.js"></script>
+ <script src="/jq.js"></script>
  <link rel="stylesheet" type="text/css" href="/slick/slick.css"/>
  <link rel="stylesheet" type="text/css" href="/slick/slick-theme.css"/>
  <link rel="stylesheet" type="text/css" href="/slick/st.css"/>
+ <script src="/slick/jquery/jquery.min.js"></script>
+ <script src="/slick/jquery/jquery-1.11.0.min.js"></script>
+ <script src="/slick/jquery/jquery-migrate-1.2.1.min.js"></script>
+ 
 <title>
 		Cinesec
 </title>
@@ -40,8 +44,6 @@
 	.img:hover {-webkit-filter: brightness(120%); }
 	.video-element
 	{
-		box-shadow: 5px 5px 5px #888888;
-		background-color: f6f4f3;
 		float:left;
 		margin-left:30;
 		width:800;
@@ -59,7 +61,7 @@
 	}
 	.description
 	{
-		font-family: Ariel;
+		font-family: Sawasdee ;
 		font-size:20;
 		width:100%;
 	}
@@ -91,10 +93,9 @@
 		</div>
 		<BR>
 		<Br>-->
-	<div style="font-family: stalemate ;font-size:100;">
-		Cinesec
-	</div>
-	
+		<div style="font-family: stalemate ;font-size:100;color:black;">
+			Cinesec
+		</div>
 	<script type="text/javascript">
    
     $(document).ready(function(){
@@ -151,9 +152,10 @@
  <div style="overflow: auto;">
 	<div class="video-element">
 		<div align="left" class="header">
-			{{page.catch}}
+			<font color="015379"> 
+				{{page.catch}}
+			</font>
 		</div>
-		<br><br>
 		<div align="left" class="description">
 			{{ content }}
 		</div>
@@ -186,13 +188,15 @@
 	</div>
 
 	
-  	<div style="background-color:f6f4f3;float:right;width:30%;margin-right:40px;margin-left:40px;box-shadow: 5px 5px 5px #888888;">
+  	<div style="background-color:;float:right;width:30%;margin-right:40px;">
   	{% for post in site.posts %}
 		{% if post.categories contains 'indi-right' %}
 			<a href="{{ post.url }}">
 				<div class="middlePost2">
 					<img src="/images/posts/{{post.image}}"width=100%;height:100%;>
-					{{post.content}}
+						<font color="0171a5"> 
+						<b>	{{post.content}}</b>
+						</font>
 				</div>
 			</a>
 			<br>

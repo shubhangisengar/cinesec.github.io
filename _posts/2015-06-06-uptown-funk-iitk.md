@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Uptown Funk IIT Kanpur
-image: uptown-funk-iitk.png
+image: uptown-funk-iitk.jpg
 categories: [left, indi-bottom1]
 tag: coverstory
 youtube: https://www.youtube.com/embed/Yq-vTT-fHtk
