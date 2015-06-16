@@ -4,7 +4,7 @@ title: THOMSO
 image: thomso-aftermovie.jpg
 categories: ['top','indi-bottom2']
 tag: coverstory
-youtube: https://www.youtube.com/embed/Yq-vTT-fHtk
+youtube: https://www.youtube.com/embed/1_e5VtZZsYE
 catch: Aftermovie:Thomso
 author: Harkirat Singh
 ---

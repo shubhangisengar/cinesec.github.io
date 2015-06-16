@@ -4,7 +4,7 @@ title: IIT KHARAGPUR CAMPUS TOUR
 image: iit-kgp-campus-tour.png
 categories: ['top23','indi-right']
 tag: coverstory
-youtube: https://www.youtube.com/embed/Yq-vTT-fHtk
+youtube: https://www.youtube.com/embed/gQ2AYloadeY
 catch: Aftermovie:Thomso
 author: Harkirat Singh
 ---

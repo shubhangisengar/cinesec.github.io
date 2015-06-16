@@ -4,7 +4,7 @@ title: SCREENPATTI's SAVE THE BHAI
 image: save-the-bhai.jpg
 categories: ['cover','left','indi-top']
 tag: coverstory
-youtube: https://www.youtube.com/embed/Yq-vTT-fHtk
+youtube: https://www.youtube.com/embed/0p4p7jTBaCY
 catch: Save The Bhai
 author: Harkirat Singh
 ---

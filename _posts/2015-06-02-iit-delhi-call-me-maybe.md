@@ -4,7 +4,7 @@ title: Call me Maybe!
 image: iitd-call-me-maybe.png
 categories: [right, indi-bottom2]
 tag: coverstory
-youtube: https://www.youtube.com/embed/Yq-vTT-fHtk
+youtube: https://www.youtube.com/embed/18ZzR_KnoK4
 catch: When A bunch of IITians lipdubbed,this happened
 author: Harkirat Singh
 ---

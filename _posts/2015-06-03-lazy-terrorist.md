@@ -4,7 +4,7 @@ title: Lazy terrorist
 image: lazy-terrorist.png
 categories: [left, indi-bottom1]
 tag: coverstory
-youtube: https://www.youtube.com/embed/Yq-vTT-fHtk
+youtube: https://www.youtube.com/embed/p_e_ZtdKHXc
 catch: Are You Lazy?
 author: Harkirat Singh
 ---

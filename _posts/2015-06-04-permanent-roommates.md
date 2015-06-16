@@ -4,7 +4,7 @@ title: Permanent Roommates
 image: permanent-roommates.jpg
 categories: [right, indi-right]
 tag: coverstory
-youtube: https://www.youtube.com/embed/Yq-vTT-fHtk
+youtube: https://www.youtube.com/embed/6LedYr5tQUs
 catch: Permanent Roommates
 author: Harkirat Singh
 ---

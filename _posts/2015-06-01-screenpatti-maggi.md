@@ -4,7 +4,7 @@ title: SCREENPATTI's MAGGI
 image: screenpatti-maggi.jpg
 categories: [cover, right, indi-top]
 tag: coverstory
-youtube: https://www.youtube.com/embed/Yq-vTT-fHtk
+youtube: https://www.youtube.com/embed/1fmluItm_m0
 catch: Maggi's gone,know the reason why?
 author: Harkirat Singh
 ---
